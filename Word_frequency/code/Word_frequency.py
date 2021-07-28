@@ -46,7 +46,7 @@ def draw_photo(result):
 
 def main():
     k = int(input('请输入要查看排名在前多少位的词汇:'))
-    file_name = 'test.txt'
+    file_name = 'test2.txt'
     word_list = get_word_list(file_name)
     result = cut_word(k, word_list)
     draw_photo(result)
